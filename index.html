@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating WhatsApp Icon</title>
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+    <style>
+        .whatsapp_float {
+            position: fixed;
+            bottom: 40px;
+            right: 20px;
+        }
+
+    
+        .fa-whatsapp {
+            font-size: 50px; /* Adjust the font size to change icon size */
+            transition: filter 0.3s;
+        }
+
+        .fa-whatsapp:hover {
+            animation: glow 1s ease-in-out infinite alternate;
+            cursor: pointer;
+        }
+
+        @keyframes glow {
+            0% {
+                filter: brightness(1);
+            }
+            100% {
+                filter: brightness(1.5);
+            }
+        }
+    </style>
+</head>
+<body>
+   
+<div class="whatsapp_float">
+  <a href="https://wa.me/918099849929 " target="_blank"> 
+    <i class="fa-brands fa-whatsapp fa-beat-fade" style="color: #25d366;"></i>
+  </a>
+</div>
+
+</body>
+</html>
